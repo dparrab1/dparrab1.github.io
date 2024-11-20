@@ -1,0 +1,114 @@
+/* Fuentes y colores */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+  }
+  
+  /* Encabezado principal */
+  .main-header {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #76c7c0;
+    margin: 0;
+  }
+  
+  .main-subtitle {
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+  
+  /* Imagen de perfil */
+  .profile-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid #76c7c0;
+    margin-top: 1rem;
+    transition: transform 0.3s;
+  }
+  
+  .profile-image img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Barra de búsqueda */
+  .search-bar {
+    margin: 1.5rem auto;
+    display: flex; /* Usamos flexbox para alinear */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Alinea verticalmente (opcional) */
+    width: 100%; /* Asegura que ocupa todo el ancho necesario */
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    max-width: 400px;
+    width: 100%; /* Permite que se ajuste automáticamente al contenedor */
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background: rgb(255, 255, 255);
+    color: #1e3a5f; /* Cambié el color del texto para mejor visibilidad */
+    font-size: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Para mejorar el estilo */
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0 1.5rem;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #76c7c0;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #fff;
+  }
+  
+  /* Secciones */
+  .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #76c7c0;
+    margin-bottom: 1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #76c7c0;
+    font-size: 0.9rem;
+  }
+  
